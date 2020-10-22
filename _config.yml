@@ -1,7 +1,7 @@
 # Site
-name: "아이템 창고"
-title: "아이템 창고"
-description: "아이템 창고입니다."
+name: "아이템 창고 블로그"
+title: "아이템 창고 블로그"
+description: "좋은 아이템만 모아 두는 아이템 창고입니다."
 logo: 'assets/images/logo.png'
 favicon: 'assets/images/logo.png'
 baseurl: /white
@@ -14,17 +14,17 @@ permalink: /:title/
 # Authors
 authors:
   sal:
-    name: Sal
-    display_name: Sal
+    name: white
+    display_name: white
     gravatar: e56154546cf4be74e393c62d1ae9f9d4
     email: wowthemesnet@gmail.com
-    web: https://www.wowthemes.net
-    twitter: https://twitter.com/wowthemesnet
-    description: "Author of Mediumish, a Bootstrap Medium styled template available for WordPress, HTML, Ghost and Jekyll. You are currently previewing Jekyll template demo."
+    web: https://ttorya.github.io/white/
+    twitter: 
+    description: "좋은 아이템들을 골라주는 아이템 픽업 블로그 white 입니다."
   
 # Plugins
 plugins:
-  - jekyll-paginate
+  - jekyll-paginate-v2
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
@@ -39,7 +39,7 @@ jekyll-archives:
     category: '/category/:name/'
     
 # Pagination 
-paginate: 6
+paginate: 12
 paginate_path: /page:num/
     
 # Other

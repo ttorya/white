@@ -12,4 +12,4 @@ rating: 5
 ---
 
 
-<meta http-equiv="refresh" content="3; url=https://naver.com">
+<meta http-equiv="refresh" content="5; url=https://naver.com">

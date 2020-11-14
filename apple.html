@@ -2,12 +2,17 @@
 <head>
     <script>
         
-        // 0.1 초 sleep 
-        setTimeout(function(){
-        // something todo 
-        }, 5000);
+        sleep(5000);
 
         window.location = "https://coupa.ng/" + getQueryVariable('id');
+
+        function sleep (delay) {
+            var start = new Date().getTime();
+            while (new Date().getTime() < start + delay);
+        }
+
+
+            
 
         function getQueryVariable(variable) {
             var query = window.location.search.substring(1);
